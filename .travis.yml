@@ -4,7 +4,8 @@ install: true
 jdk:
   - openjdk11
 
-script: ./mvnw clean install
+before_install:
+  - chmod +x mvnw
 
 notifications:
   email: houarizegai14@gmail.com
