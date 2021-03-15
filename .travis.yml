@@ -4,5 +4,5 @@ jdk:
 
 script: ./mvnw clean install
 
-notification:
+notifications:
   email: houarizegai14@gmail.com
